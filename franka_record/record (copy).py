@@ -1,4 +1,4 @@
-# record.py (改進版本)
+# record.py (改進版本)#
 import os
 import argparse
 import rclpy
