@@ -1,0 +1,8 @@
+prefix=/home/csl/franka_ws/install
+
+Name: franka_control
+Description: Description of franka_control
+Version: 0.10.1
+Cflags: -I${prefix}/include -I/usr/local/include
+Libs: -L${prefix}/lib -lfranka_state_controller /usr/local/lib/libfranka.so.0.10.0
+Requires: controller_interface franka_hw franka_msgs geometry_msgs pluginlib realtime_tools roscpp sensor_msgs tf2_msgs std_srvs

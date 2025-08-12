@@ -1,0 +1,8 @@
+prefix=/home/csl/franka_ws/devel
+
+Name: franka_hw
+Description: Description of franka_hw
+Version: 0.10.1
+Cflags: -I/home/csl/franka_ws/src/franka_ros/franka_hw/include -I/usr/local/include
+Libs: -L${prefix}/lib -lfranka_hw -lfranka_control_services /usr/local/lib/libfranka.so.0.10.0
+Requires: actionlib_msgs actionlib controller_interface combined_robot_hw hardware_interface joint_limits_interface roscpp std_srvs pluginlib urdf franka_msgs
